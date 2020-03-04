@@ -8,12 +8,12 @@ public class Main2 {
     private static Pet getPetByName(String name) {
         switch (name.toLowerCase()) {
             case "Wolf":
-                return new JavaPet();
+                return new WolfPet();
             case "Cat":
             case "Manul":
-                return new JavaScriptPet();
+                return new CatPet();
             case "Hedgehog":
-                return new PythonPet();
+                return new HedgehogPet();
             default:
                 return new UnknownPet(name);
         }
