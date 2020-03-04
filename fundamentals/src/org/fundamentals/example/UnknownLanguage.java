@@ -1,10 +1,10 @@
 package org.fundamentals.example;
 
-public class UnknownLanguage extends Language {
+public class UnknownPet extends Pet {
 
     private String name;
 
-    UnknownLanguage(String name) {
+    UnknownPet(String name) {
         this.name = name;
     }
 

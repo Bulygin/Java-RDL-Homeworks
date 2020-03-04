@@ -2,24 +2,24 @@ package org.fundamentals.example;
 
 public class Main2 {
     public static void main(String[] args) {
-        printLanguageDescription(getLanguageByName(args[0]));
+        printPetDescription(getPetByName(args[0]));
     }
 
-    private static Language getLanguageByName(String name) {
+    private static Pet getPetByName(String name) {
         switch (name.toLowerCase()) {
-            case "java":
-                return new JavaLanguage();
-            case "js":
-            case "javascript":
-                return new JavaScriptLanguage();
-            case "python":
-                return new PythonLanguage();
+            case "Wolf":
+                return new JavaPet();
+            case "Cat":
+            case "Manul":
+                return new JavaScriptPet();
+            case "Hedgehog":
+                return new PythonPet();
             default:
-                return new UnknownLanguage(name);
+                return new UnknownPet(name);
         }
     }
 
-    private static void printLanguageDescription(Language language) {
-        System.out.println(language.getDescription());
+    private static void printPetDescription(Pet Pet) {
+        System.out.println(Pet.getDescription());
     }
 }

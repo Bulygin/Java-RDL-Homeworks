@@ -1,6 +1,6 @@
 package org.fundamentals.example;
 
-public class JavaScriptLanguage extends Language implements DynamicTyped, MultiParadigm {
+public class JavaScriptPet extends Pet implements DynamicTyped, MultiParadigm {
     @Override
     protected String getName() {
         return "JavaScript";

@@ -1,9 +1,9 @@
 package org.fundamentals.example;
 
-public abstract class Language implements Paradigm, Typization {
+public abstract class Pet implements Paradigm, Typization {
     protected abstract String getName();
 
     String getDescription() {
-        return getName() + " is " + specification() + " and " + type() + " language.";
+        return getName() + " is " + specification() + " and " + type() + " Pet.";
     }
 }
