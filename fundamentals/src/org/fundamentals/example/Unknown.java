@@ -1,6 +1,6 @@
 package org.fundamentals.example;
 
-public class UnknownPet extends Pet {
+public class Unknown extends Pet {
 
     private String name;
 

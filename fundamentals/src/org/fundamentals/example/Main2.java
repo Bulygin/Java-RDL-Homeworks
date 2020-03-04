@@ -8,14 +8,14 @@ public class Main2 {
     private static Pet getPetByName(String name) {
         switch (name.toLowerCase()) {
             case "Wolf":
-                return new WolfPet();
+                return new Wolf();
             case "Cat":
             case "Manul":
-                return new CatPet();
+                return new Cat();
             case "Hedgehog":
-                return new HedgehogPet();
+                return new Hedgehog();
             default:
-                return new UnknownPet(name);
+                return new Unknown(name);
         }
     }
 

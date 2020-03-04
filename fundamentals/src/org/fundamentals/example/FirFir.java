@@ -1,6 +1,6 @@
 package org.fundamentals.example;
 
-public interface Functional extends Voice {
+public interface FirFir extends Voice {
     @Override
     default String voice() {
         return "FirFir";
