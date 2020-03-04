@@ -14,12 +14,12 @@ public class UnknownPet extends Pet {
     }
 
     @Override
-    public String specification() {
+    public String voice() {
         return "unknown";
     }
 
     @Override
-    public String type() {
+    public String action() {
         return "unclear";
     }
 }

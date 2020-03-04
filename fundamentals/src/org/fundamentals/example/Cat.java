@@ -1,6 +1,6 @@
 package org.fundamentals.example;
 
-public class CatPet extends Pet implements DynamicTyped, MultiParadigm {
+public class Cat extends Pet implements Sleep, Meow {
     @Override
     protected String getName() {
         return "Cat";
