@@ -3,6 +3,6 @@ package org.fundamentals.example;
 public interface FirFir extends Voice {
     @Override
     default String voice() {
-        return "FirFir";
+        return "Fir-Fir";
     }
 }

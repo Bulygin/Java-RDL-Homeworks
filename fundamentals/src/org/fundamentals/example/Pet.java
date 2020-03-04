@@ -4,6 +4,6 @@ public abstract class Pet implements Voice, Action {
     protected abstract String getName();
 
     String getDescription() {
-        return getName() + " is " + action() + " and " + voice();
+        return getName() + " says "+ voice() + " and "  + action();
     }
 }

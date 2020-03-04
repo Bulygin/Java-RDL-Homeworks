@@ -4,7 +4,7 @@ public class Unknown extends Pet {
 
     private String name;
 
-    UnknownPet(String name) {
+    Unknown(String name) {
         this.name = name;
     }
 
@@ -15,11 +15,11 @@ public class Unknown extends Pet {
 
     @Override
     public String voice() {
-        return "unknown";
+        return "who i am?";
     }
 
     @Override
     public String action() {
-        return "unclear";
+        return "simply exist";
     }
 }

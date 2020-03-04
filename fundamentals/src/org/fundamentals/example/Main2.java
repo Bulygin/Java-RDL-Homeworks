@@ -7,12 +7,12 @@ public class Main2 {
 
     private static Pet getPetByName(String name) {
         switch (name.toLowerCase()) {
-            case "Wolf":
+            case "wolf":
                 return new Wolf();
-            case "Cat":
-            case "Manul":
+            case "cat":
+            case "manul":
                 return new Cat();
-            case "Hedgehog":
+            case "hedgehog":
                 return new Hedgehog();
             default:
                 return new Unknown(name);
